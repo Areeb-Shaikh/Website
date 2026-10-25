@@ -132,19 +132,19 @@ const photoDots = document.getElementById("photoDots");
 // File paths are relative to index.html
 const photos = [
   {
-    src: "photos/photo1.jpg",
+    src: "photo1.jpg",
     caption: "The day I knew you were special 💕",
   },
   {
-    src: "photos/photo2.jpg",
+    src: "photo2.jpg",
     caption: "That smile I'd do anything for 😊",
   },
   {
-    src: "photos/photo3.jpg",
+    src: "photo3.jpg",
     caption: "My favorite person, my favorite place 🧸",
   },
   {
-    src: "photos/photo4.jpg",
+    src: "photo4.jpg",
     caption: "Every moment with you feels like a gift 🎁",
   },
 ];
