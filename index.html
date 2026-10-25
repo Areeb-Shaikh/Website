@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday Zainab 💖</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Floating decorations background -->
+  <div class="floating-decor" id="decor"></div>
+
+  <!-- ===== SCREEN 1: WELCOME ===== -->
+  <main class="screen active" id="welcomeScreen">
+    <div class="welcome-content">
+      <div class="big-heart">💖</div>
+      <h1 class="heading">Happy Birthday<br />Zainab 🎉</h1>
+      <p class="subtext">I made something special just for you...</p>
+      <button class="action-btn" id="startBtn">Click Me 💌</button>
+    </div>
+  </main>
+
+  <!-- ===== SCREEN 2: LINE REVEAL ===== -->
+  <main class="screen" id="linesScreen">
+    <div class="lines-content">
+      <div class="progress-dots" id="progressDots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+
+      <div class="lines-box" id="linesBox">
+        <!-- Lines are injected by JS -->
+      </div>
+
+      <button class="action-btn" id="nextBtn">Next 💕</button>
+    </div>
+  </main>
+
+  <!-- ===== SCREEN: PHOTO GALLERY (NEW) ===== -->
+<main class="screen" id="galleryScreen">
+  <h2 class="heading small">Our Little Moments 📸</h2>
+  <p class="subtext">A few memories I keep close to my heart...</p>
+
+  <div class="photo-frame">
+    <div class="photo-container">
+      <img id="galleryPhoto" src="" alt="Our memory" />
+    </div>
+    <p class="photo-caption" id="photoCaption"></p>
+  </div>
+
+  <div class="gallery-controls">
+    <button class="nav-btn" id="prevPhoto" aria-label="Previous photo">←</button>
+    <button class="action-btn" id="nextPhoto">Next 💕</button>
+  </div>
+
+  <div class="progress-dots" id="photoDots"></div>
+</main>
+
+  <!-- ===== SCREEN 3: ENVELOPE ===== -->
+  <main class="screen" id="envelopeScreen">
+    <h2 class="heading small">One last thing...</h2>
+    <p class="subtext">This one is straight from my heart 💌</p>
+
+    <div class="envelope-wrap" id="envelopeWrap" role="button" tabindex="0" aria-label="Open your love letter">
+      <div class="envelope">
+        <div class="envelope-back"></div>
+        <div class="letter-preview">💌</div>
+        <div class="envelope-front"></div>
+        <div class="envelope-flap"></div>
+        <div class="seal">❤</div>
+      </div>
+      <p class="tap-hint">Tap the envelope 💌</p>
+    </div>
+
+    <div class="decor-row">🧸 🌸 🎁 🌷 🧸</div>
+  </main>
+
+  <!-- ===== SCREEN 4: LOVE LETTER ===== -->
+  <section class="screen" id="letterScreen">
+    <div class="letter-card">
+      <h2 class="letter-title">My Dearest Zainab 💖</h2>
+
+      <div class="letter-body">
+        <p>Happy Birthday, my love. 🎂</p>
+        <p>
+          Today the world celebrates the day you were born, but for me,
+          every single day with you feels like a celebration.
+        </p>
+        <p>
+          You are the softest part of my life — my peace, my smile,
+          my favorite hello and my hardest goodbye.
+        </p>
+        <p>
+          Thank you for being you. For your laugh that fixes my worst days,
+          for your heart that loves so purely, and for choosing me.
+        </p>
+        <p>
+          I hope this year brings you every little thing that makes you happy.
+          And I promise to be right there beside you through all of it.
+        </p>
+        <p>
+          You deserve the whole world, Zainab — and I'll spend my life
+          trying to give it to you.
+        </p>
+        <p class="letter-signature">
+          Forever yours,<br />
+          <span class="signature-name">Arafat ❤️</span>
+        </p>
+      </div>
+
+      <button class="action-btn letter-end-btn" id="finalBtn">
+  Click Me 💫
+</button>
+    </div>
+  </section>
+  <!-- ===== SCREEN 5: FINAL MOON MESSAGE (NEW) ===== -->
+<main class="screen" id="finalScreen">
+  <div class="final-content">
+    <div class="moon">🌙</div>
+    <h1 class="heading">Once Again,<br />Happy Birthday Zainab 🎂</h1>
+
+    <div class="moon-lines">
+      <p>If the moon could speak, it would tell you</p>
+      <p>that even it gets jealous of your glow. 🌙</p>
+      <p>You're the reason my nights feel softer</p>
+      <p>and my mornings feel warmer. 💫</p>
+      <p>I'd count every star in the sky</p>
+      <p>and still run out of reasons to love you. ✨</p>
+      <p>Happy Birthday, my moon. 🌙💖</p>
+    </div>
+
+    <p class="final-signature">— Forever yours Arafat❤️</p>
+
+    <div class="decor-row">🌙 ⭐ 🌸 💫 🧸 ⭐ 🌙</div>
+  </div>
+</main>
+
+  <script src="script.js"></script>
+</body>
+</html>
